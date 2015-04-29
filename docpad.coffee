@@ -12,16 +12,14 @@ docpadConfig = {
 		# Specify some site properties
 		site:
 			# The production url of our website
-			url: "http://website.com"
+			url: "http://transformap.co"
 
 			# Here are some old site urls that you would like to redirect from
 			oldUrls: [
-				'www.website.com',
-				'website.herokuapp.com'
 			]
 
 			# The default title of our website
-			title: "Your Website"
+			title: "TransforMap"
 
 			# The website description (for SEO)
 			description: """
@@ -41,6 +39,7 @@ docpadConfig = {
 
 			# Styles
 			styles: [
+				"//fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic&subset=latin,latin-ext"
 				"/styles/twitter-bootstrap.css"
 				"/styles/style.css"
 			]

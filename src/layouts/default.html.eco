@@ -23,10 +23,6 @@
 
 	<!-- Icons -->
 		<link rel="shortcut icon" href="images/icons/favicon.ico">
-		<link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/icons/apple-touch-icon-144-precomposed.png">
-		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/icons/apple-touch-icon-114-precomposed.png">
-		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/icons/apple-touch-icon-72-precomposed.png">
-		<link rel="apple-touch-icon-precomposed" href="images/icons/apple-touch-icon-57-precomposed.png">
 
 	<!-- Shims: IE6-8 support of HTML5 elements -->
 	<!--[if lt IE 9]>
@@ -46,10 +42,10 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="/">Project name</a>
+				<a class="navbar-brand" href="/"><img src="/images/logo_white.png"></a>
 			</div>
 			<div class="navbar-collapse collapse">
-				<ul class="nav navbar-nav">
+				<ul class="nav navbar-nav navbar-right">
 					<% for document in @getCollection('pages').toJSON(): %>
 						<li
 							typeof="sioc:Page"
@@ -69,17 +65,10 @@
 	<!-- Content -->
 	<div class="container">
 		<!-- Content -->
-		<section id="content" class="content">
+		<div id="content" class="content">
 			<%- @content %>
-		</section>
+		</div>
 
-		<!-- Footer -->
-		<footer>
-			<p class="pull-left">&copy; Company <%- (new Date()).getFullYear() %></p>
-			<p class="pull-right">
-				This website was last updated at <%= @site.date.toISOString() %>
-			</p>
-		</footer>
 	</div><!-- /container -->
 
 	<!-- Scripts -->

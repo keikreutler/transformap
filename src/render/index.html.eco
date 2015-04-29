@@ -1,0 +1,38 @@
+---
+layout: 'default'
+---
+
+<section>
+	<img class="icon" src="/images/icon.png">
+
+	<div class="text-center"><%- @partial('text-welcome') %></div>
+</section>
+
+<section>
+	<div class="row">
+		<div class="col-sm-3">
+			<div class="round">
+				<img src="/images/map-green.png">
+			</div>
+		</div>
+		<div class="col-sm-3">
+			<div class="round">
+				<img src="/images/map-identities.png">
+			</div>
+		</div>
+		<div class="col-sm-3">
+			<div class="round">
+				<img src="/images/map-needs.png">
+			</div>
+		</div>
+		<div class="col-sm-3">
+			<div class="round">
+				<img src="/images/map-organic.png">
+			</div>
+		</div>
+	</div>
+</section>
+
+<section>
+	<%- @partial('text-about') %>
+</section>
