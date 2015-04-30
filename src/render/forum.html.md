@@ -1,7 +1,7 @@
 ---
-title: Discourse
+title: Forum
 layout: default
-tags: ['discourse','page']
+tags: ['discourse','forum','page']
 pageOrder: 2
 ---
 

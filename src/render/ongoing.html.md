@@ -1,7 +1,7 @@
 ---
-title: News
+title: Ongoing
 layout: default
-tags: ['news','page']
+tags: ['news','blog','ongoing','page']
 pageOrder: 1
 ---
 
