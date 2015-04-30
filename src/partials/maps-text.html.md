@@ -1,3 +1,3 @@
 ## The Mother of Many Maps ##
 
-Some text describing how the TransforMap taxonomy and data sets can be used.
+[A plenty of projects](http://mmm.3oe.de/wiki/Category:Datasource) creates maps of alternatives. If we agree on standards how to describe them, we can create individual maps from a shared commons of information.
