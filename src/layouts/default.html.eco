@@ -62,23 +62,11 @@
 							</a>
 						</li>
 					<% end %>
-					<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Activities <span class="caret"></span></a>
-						<ul class="dropdown-menu" role="menu">
-							<li ><a href="/blog">Blog</a></li>
-							<li><a href="/15mmm">15MMM</a></li>
-						</ul>
-					</li>
 				</ul>
 				<ul class="nav navbar-nav navbar-right">
 					<li>
 						<a href="/">
 							<i class="fa fa-info-circle fa-1x"></i>
-						</a>
-					</li>
-					<li>
-						<a href="/about">
-							About
 						</a>
 					</li>
 				</uL>
@@ -93,13 +81,9 @@
 
 	<footer>
 		<p>
-			Content licensed under *** | Website licensed under ***
+			Content licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC-BY-SA 4.0</a> | Website licensed under <a href="https://github.com/keikreutler/transformap/blob/master/LICENSE.md" target="_blank">LGPL v3.0</a>
 			<br>
-			<a href="/imprint">
-				Imprint
-			</a>
 		</p>
-
 	</footer>
 	<!-- Scripts -->
 	<%- @getBlock('scripts').add(@site.scripts).toHTML() %>

@@ -1,4 +1,4 @@
-TransforMap works towards an online platform for you to visualize the myriads of alternatives to the dominant economic thinking on a single mapping system. It will give everybody the opportunity to map all the initiatives, communities, projects, worker-owned, self-managed, democratically organised companies and other institutions dedicated to meeting people's needs, serving the common good and/ or contributing to a sustainable way of life.
+TransforMap works towards an online platform to visualize the myriad of alternatives to the dominant economic thinking on a single mapping system. It will give everyone the opportunity to map the initiatives, communities, projects, worker-owned, self-managed, democratically organised companies and other institutions dedicated to meeting people's needs, serving the common good and/ or contributing to a sustainable way of life.
 
 TransforMap will/ can show all the places, spaces and networks that work on fostering cooperation and deepening human relationships through (co-)producing, exchanging, contributing, gifting and sharing, for a free, fair and sustainable world.
 

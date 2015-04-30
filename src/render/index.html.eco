@@ -1,8 +1,6 @@
 ---
-title: Overview
 layout: default
-tags: ['news','blog','overview','page']
-pageOrder: 1
+tags: ['news','blog','overview']
 ---
 
 <section id="welcome">

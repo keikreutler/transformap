@@ -24,14 +24,20 @@ hr {
 	border-color: #6374A6;
 }
 footer {
-	background: #EEE;
+	background: #6374A6;
 	text-align: center;
 	padding: 10px;
 	bottom: 0;
 	font-weight: 700;
 	text-transform: uppercase;
+	color: #FFF;
 	p {
-		font-size: 14px;	
+		font-size: 14px;
+		padding: 0;
+		margin: 0;
+	}
+	a, a:hover, a:active, a:visited {
+		color: #FFF;
 	}
 }
 .container {
@@ -113,13 +119,6 @@ section#maps {
 		}
 	}
 }
-.row-eq-height {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display:         flex;
-}
-
 section#about {
 	.featured {
 		padding: 20px;
@@ -138,14 +137,14 @@ section#about {
 			margin: 0 auto 20px 0;
 		}
 	}
-	#about-who-we-are {
-		background: #6374A6;
-		min-height: 100%;
-	}
-	#about-get-involved {
-		background: #51A65E;
-		min-height: 100%;
-	}
+}
+
+#about-who-we-are {
+	background: #6374A6;
+	padding-bottom: 10px;
+}
+#about-get-involved {
+	background: #51A65E;
 }
 
 section#updates {
@@ -169,6 +168,7 @@ section#channels {
 	font-size: 11px;
 	margin-top: 20px;
 }
+
 /*****************
 Page Styles
 *****************/
@@ -185,6 +185,21 @@ Page Styles
 /*****************
 Media Styles
 *****************/
+@media screen and (min-width: 768px) {
+	.row-eq-height {
+	  display: -webkit-box;
+	  display: -webkit-flex;
+	  display: -ms-flexbox;
+	  display:         flex;
+	}
+	#about-get-involved {
+		min-height: 100%;
+	}
+	#about-who-we-are {
+		min-height: 100%;
+	}
+}
+
 @media screen and (max-width: 980px) {
 	.container {
 		width: 80%;
@@ -196,7 +211,11 @@ Media Styles
 		font-size: 12px;
 	}
 }
-
+@media screen and (max-width: 768px) {
+	#about-get-involved {
+		padding-bottom: 20px;
+	}
+}
 @media screen and (max-width: 800px) {
 	.container {
 		width: 90%;

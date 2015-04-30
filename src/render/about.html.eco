@@ -1,6 +1,7 @@
 ---
 title: About
 layout: default
+pageOrder: 2
 tags: ['about','who we are']
 ---
 
@@ -23,3 +24,13 @@ tags: ['about','who we are']
 		</div>
 	</section>
 </div>
+
+<section class="accent">
+	<div class="container">
+		<h3>Imprint</h3>
+		<div class="text-center">
+			<%- @partial('imprint') %>
+		</div>
+	</div>
+</section>
+
