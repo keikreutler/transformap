@@ -15,6 +15,11 @@
 	<meta name="keywords" content="<%= @getPreparedKeywords() %>" />
 	<meta name="author" content="<%= @site.author or '' %>" />
 
+	<meta property="og:title" content="TransforMap" />
+	<meta property="og:type" content="website" />
+	<meta property="og:description" content="<%= @getPreparedDescription() %>" />
+	<meta property="og:url" content="http://transform.github.io" />
+
 	<!-- Output DocPad produced meta elements -->
 	<%- @getBlock('meta').toHTML() %>
 
@@ -22,7 +27,7 @@
 	<meta name="viewport" content="width=device-width" />
 
 	<!-- Icons -->
-		<link rel="shortcut icon" href="images/icons/favicon.ico">
+		<link rel="shortcut icon" href="images/favicon.png">
 
 	<!-- Shims: IE6-8 support of HTML5 elements -->
 	<!--[if lt IE 9]>
