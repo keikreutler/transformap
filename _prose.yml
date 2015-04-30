@@ -1,0 +1,3 @@
+prose:
+  rooturl: 'src/partials'
+  media: 'media'

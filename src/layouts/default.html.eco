@@ -67,6 +67,9 @@
 		<%- @content %>
 	</div>
 
+	<footer>
+			Content licensed under *** | Website licensed under ***
+	</footer>
 	<!-- Scripts -->
 	<%- @getBlock('scripts').add(@site.scripts).toHTML() %>
 </body>

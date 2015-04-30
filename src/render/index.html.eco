@@ -52,4 +52,47 @@ layout: 'default'
 				</div>
 			</div>
 		</div>
+	</div>
+</section>
+
+<section id="updates" class="accent">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-9">
+				<div id="discourse">
+					<%- @partial('updates-discourse') %>
+				</div>
+			</div>
+			<div class="col-sm-3">
+				<div id="calendar">
+					<h3>Calendar</h3>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section id="channels">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-2">
+				<i class="fa fa-github fa-3x"></i>
+			</div>
+			<div class="col-sm-2">
+				<i class="fa fa-trello fa-3x"></i>
+			</div>
+			<div class="col-sm-2">
+				<i class="fa fa-cloud fa-3x"></i>
+			</div>
+			<div class="col-sm-2">
+				<i class="fa fa-files-o fa-3x"></i>
+			</div>
+			<div class="col-sm-2">
+				<i class="fa fa-twitter fa-3x"></i>
+			</div>
+			<div class="col-sm-2">
+				<i class="fa fa-users fa-3x"></i>
+			</div>
+
+		</div>
 </section>
