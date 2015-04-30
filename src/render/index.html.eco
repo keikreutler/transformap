@@ -1,5 +1,8 @@
 ---
-layout: 'default'
+title: Overview
+layout: default
+tags: ['news','blog','overview','page']
+pageOrder: 1
 ---
 
 <section id="welcome">
@@ -35,6 +38,9 @@ layout: 'default'
 				</div>
 			</div>
 		</div>
+		<p class="attribution">
+			Map data <a href="https://openstreetmap.org/">&copy;OpenStreetMap</a> contributors - <a href="http://opendatacommons.org/licenses/odbl/">&copy;ODbL</a>, Tiles <a href="http://mapbox.com/about/maps/">&copy;MapBox</a>, Icons <a href="http://www.greenmap.org">&copy;greenmap.org</a>/TransforMap.
+		</p>
 	</div>
 </section>
 
@@ -75,24 +81,30 @@ layout: 'default'
 <section id="channels">
 	<div class="container">
 		<div class="row">
-			<div class="col-sm-2">
-				<i class="fa fa-github fa-3x"></i>
+			<div class="col-sm-2 col-sm-offset-1">
+				<a href="https://github.com/transformap" target="_blank">
+					<i class="fa fa-github fa-3x"></i>
+				</a>
 			</div>
 			<div class="col-sm-2">
-				<i class="fa fa-trello fa-3x"></i>
+				<a href="https://trello.com/transformap" target="_blank">
+					<i class="fa fa-trello fa-3x"></i>
+				</a>
 			</div>
 			<div class="col-sm-2">
-				<i class="fa fa-cloud fa-3x"></i>
+				<a href="http://directory.open-steps.org/" target="_blank">
+					<i class="fa fa-users fa-3x"></i>
+				</a>
 			</div>
 			<div class="col-sm-2">
-				<i class="fa fa-files-o fa-3x"></i>
+				<a href="https://wiki.14mmm.org/" target="_blank">
+					<i class="fa fa-files-o fa-3x"></i>
+				</a>
 			</div>
 			<div class="col-sm-2">
-				<i class="fa fa-twitter fa-3x"></i>
+				<a href="https://trello.com/transformap" target="_blank">
+					<i class="fa fa-twitter fa-3x"></i>
+				</a>
 			</div>
-			<div class="col-sm-2">
-				<i class="fa fa-users fa-3x"></i>
-			</div>
-
 		</div>
 </section>

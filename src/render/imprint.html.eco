@@ -1,0 +1,10 @@
+---
+title: Imprint
+layout: default
+---
+
+<section>
+	<div class="container">
+		<%- @partial('imprint') %>
+	</div>
+</section>

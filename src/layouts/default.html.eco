@@ -62,7 +62,26 @@
 							</a>
 						</li>
 					<% end %>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Activities <span class="caret"></span></a>
+						<ul class="dropdown-menu" role="menu">
+							<li ><a href="/blog">Blog</a></li>
+							<li><a href="/15mmm">15MMM</a></li>
+						</ul>
+					</li>
 				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li>
+						<a href="/">
+							<i class="fa fa-info-circle fa-1x"></i>
+						</a>
+					</li>
+					<li>
+						<a href="/about">
+							About
+						</a>
+					</li>
+				</uL>
 			</div><!--/.navbar-collapse -->
 		</div>
 	</div>
@@ -73,7 +92,14 @@
 	</div>
 
 	<footer>
+		<p>
 			Content licensed under *** | Website licensed under ***
+			<br>
+			<a href="/imprint">
+				Imprint
+			</a>
+		</p>
+
 	</footer>
 	<!-- Scripts -->
 	<%- @getBlock('scripts').add(@site.scripts).toHTML() %>

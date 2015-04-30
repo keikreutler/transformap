@@ -1,0 +1,19 @@
+---
+title: About
+layout: default
+tags: ['about','who we are']
+---
+
+<div id="page-about">
+	<section>
+		<div class="container">
+			<%- @partial('text-long-description') %>
+		</div>
+	</section>
+
+	<section>
+		<div class="container">
+			<img src="/images/supporters.png">
+		</div>
+	</section>
+</div>
