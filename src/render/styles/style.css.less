@@ -113,14 +113,23 @@ section#maps {
 		}
 	}
 }
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+}
 
 section#about {
 	.featured {
 		padding: 20px;
+		padding-bottom: 0;
+		margin: 15px auto;
 		color: #FFF;
 		border-radius: 5px;
 		a {
 			color: #FFF;
+			text-decoration: underline;
 		}
 		p {
 			text-align: left;
@@ -131,9 +140,11 @@ section#about {
 	}
 	#about-who-we-are {
 		background: #6374A6;
+		min-height: 100%;
 	}
 	#about-get-involved {
 		background: #51A65E;
+		min-height: 100%;
 	}
 }
 
@@ -149,6 +160,9 @@ section#updates {
 
 section#channels {
 	text-align: center;
+	i {
+		margin: 15px auto;
+	}
 }
 
 .attribution {

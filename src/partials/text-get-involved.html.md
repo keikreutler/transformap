@@ -4,6 +4,14 @@
 
 ### <i class="fa fa-users fa-2x"></i> ###
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+Do you like the idea of TransforMap? And want to get involved? Here are a few ways you can choose to contribute:
 
-[More information on getting involved.](http://discourse.transformap.co/t/how-to-get-involved/231)
+*  **You have a database of initiatives**: open your data and get in touch. Let's discuss what kind of license will enable both maximum collaboration and the preservation of your interests.
+
+*  **You have programming skills or are an organization with such skills at hand**: pool your technical resources with the TransforMap community. Visit [our Trello board](https://trello.com/b/adHSEyXl/engineering) to know what needs to be done on the software side.
+
+*  **You are well connected to the local alternatives of your region**: why not try running a local test mapping using [TransforMap’s Taxonomy version 1.0](http://discourse.transformap.co/c/mapping-month-may-2015)? Check out the tools available [here](http://discourse.transformap.co/t/which-tools-are-available/265)!
+
+Support with any other means, including in-kind donation, and get in touch via our global mailing list [global@lists.14mmm.org](http://lists.14mmm.org/cgi-bin/mailman/listinfo/global).
+
+For more ways to get involved, check out the [wiki on Discourse](http://discourse.transformap.co/t/how-to-get-involved/231).

@@ -1,3 +1,3 @@
 ## The Mother of Many Maps ##
 
-Some text describing how the TransforMap taxonomy and data sets can be used.
+Maps generated out of the TransforMap dataset include visualisations of needs-based initiatives, green projects, and more.
