@@ -53,7 +53,9 @@ docpadConfig = {
 				"/scripts/script.js"
 			]
 
-
+			# Piwik
+			# via https://github.com/webplatform/www.webplatform.org/blob/3590651a736ad8e8b8ff2cb73c35ba87f2973f7b/src/layouts/base.html.eco
+			piwik_id: 7
 
 		# -----------------------------
 		# Helper Functions
