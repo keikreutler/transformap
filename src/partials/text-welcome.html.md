@@ -1,1 +1,0 @@
-## TransforMap is a movement to provide a common mapping platform for all alternatives to the dominant economic thinking. ##

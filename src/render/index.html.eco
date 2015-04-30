@@ -2,37 +2,54 @@
 layout: 'default'
 ---
 
-<section>
-	<img class="icon" src="/images/icon.png">
-
-	<div class="text-center"><%- @partial('text-welcome') %></div>
+<section id="welcome">
+	<div class="container text-center">
+		<%- @partial('text-main-description') %>
+	</div>
 </section>
 
-<section>
-	<div class="row">
-		<div class="col-sm-3">
-			<div class="round">
-				<img src="/images/map-green.png">
-			</div>
+<section id="maps" class="accent">
+	<div class="container">
+		<div class="partial">
+			<%- @partial('maps-text') %>
 		</div>
-		<div class="col-sm-3">
-			<div class="round">
-				<img src="/images/map-identities.png">
+		<div class="row">
+			<div class="col-sm-3">
+				<div class="map-card">
+					<%- @partial('map-1') %>
+				</div>
 			</div>
-		</div>
-		<div class="col-sm-3">
-			<div class="round">
-				<img src="/images/map-needs.png">
+			<div class="col-sm-3">
+				<div class="map-card">
+					<%- @partial('map-2') %>
+				</div>
 			</div>
-		</div>
-		<div class="col-sm-3">
-			<div class="round">
-				<img src="/images/map-organic.png">
+			<div class="col-sm-3">
+				<div class="map-card">
+					<%- @partial('map-3') %>
+				</div>
+			</div>
+			<div class="col-sm-3">
+				<div class="map-card">
+					<%- @partial('map-4') %>
+				</div>
 			</div>
 		</div>
 	</div>
 </section>
 
-<section>
-	<%- @partial('text-about') %>
+<section id="about">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-6">
+				<div id="about-who-we-are" class="featured">
+					<%- @partial('text-who-we-are') %>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div id="about-get-involved" class="featured">
+					<%- @partial('text-get-involved') %>
+				</div>
+			</div>
+		</div>
 </section>

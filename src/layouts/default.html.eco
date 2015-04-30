@@ -45,7 +45,7 @@
 				<a class="navbar-brand" href="/"><img src="/images/logo_white.png"></a>
 			</div>
 			<div class="navbar-collapse collapse">
-				<ul class="nav navbar-nav navbar-right">
+				<ul class="nav navbar-nav">
 					<% for document in @getCollection('pages').toJSON(): %>
 						<li
 							typeof="sioc:Page"
@@ -63,13 +63,9 @@
 	</div>
 
 	<!-- Content -->
-	<div class="container">
-		<!-- Content -->
-		<div id="content" class="content">
-			<%- @content %>
-		</div>
-
-	</div><!-- /container -->
+	<div id="content" class="content">
+		<%- @content %>
+	</div>
 
 	<!-- Scripts -->
 	<%- @getBlock('scripts').add(@site.scripts).toHTML() %>

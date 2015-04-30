@@ -1,6 +1,6 @@
 ---
 title: Discourse
-layout: page
+layout: default
 tags: ['discourse','page']
 pageOrder: 2
 ---

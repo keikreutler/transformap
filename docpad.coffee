@@ -40,6 +40,7 @@ docpadConfig = {
 			# Styles
 			styles: [
 				"//fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic&subset=latin,latin-ext"
+				"//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
 				"/styles/twitter-bootstrap.css"
 				"/styles/style.css"
 			]
