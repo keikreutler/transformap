@@ -16,24 +16,31 @@ tags: ['news','blog','overview']
 		</div>
 		<div class="row">
 			<div class="col-sm-3">
+				<a href="http://demo.transformap.co/greenmap.html#3/0/180">
 				<div class="map-card">
 					<%- @partial('map-1') %>
 				</div>
+				</a>
 			</div>
 			<div class="col-sm-3">
+				<a href="http://demo.transformap.co/identities.html#3/0/180">				
 				<div class="map-card">
 					<%- @partial('map-2') %>
 				</div>
 			</div>
 			<div class="col-sm-3">
+				<a href="http://demo.transformap.co/regional.html#3/0/180">
 				<div class="map-card">
 					<%- @partial('map-3') %>
 				</div>
+				</a>
 			</div>
 			<div class="col-sm-3">
+				<a href="http://demo.transformap.co/organic.html#3/0/180">
 				<div class="map-card">
 					<%- @partial('map-4') %>
 				</div>
+				</a>
 			</div>
 		</div>
 		<p class="attribution">
