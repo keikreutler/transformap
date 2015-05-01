@@ -5,20 +5,22 @@ tags: ['activites','news','team', 'page']
 pageOrder: 3
 ---
 
-<section id="15mmm">
-	<div class="container">
-		<%- @partial('text-15mmm') %>
-	</div>
-</section>
+<div id="page-activities">
+	<section>
+		<div class="container">
+			<%- @partial('text-15mmm') %>
+		</div>
+	</section>
 
-<section id="updates" class="accent">
-	<div class="container">
-		<div class="row">
-			<div class="col-sm-12">
-				<div id="discourse">
-					<%- @partial('updates-discourse') %>
+	<section id="updates" class="accent">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<div id="discourse">
+						<%- @partial('updates-discourse') %>
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-</section>
+	</section>
+</div>
