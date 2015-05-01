@@ -18,7 +18,7 @@
 	<meta property="og:title" content="TransforMap" />
 	<meta property="og:type" content="website" />
 	<meta property="og:description" content="<%= @getPreparedDescription() %>" />
-	<meta property="og:url" content="http://transform.github.io" />
+	<meta property="og:url" content="http://transformap.co" />
 
 	<!-- Output DocPad produced meta elements -->
 	<%- @getBlock('meta').toHTML() %>
@@ -87,5 +87,22 @@
 	</footer>
 	<!-- Scripts -->
 	<%- @getBlock('scripts').add(@site.scripts).toHTML() %>
+	<!-- Piwik -->
+	<script type="text/javascript">
+		var _paq = _paq || [];
+		_paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
+		_paq.push(["setCookieDomain", "*.webplatform.org"]);
+		_paq.push(['trackPageView']);
+		_paq.push(['enableLinkTracking']);
+		(function() {
+		  var u="//piwik.allmende.io/";
+		  _paq.push(['setTrackerUrl', u+'piwik.php']);
+		  _paq.push(['setSiteId', <%= @site.piwik_id %>]);
+		  var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+		  g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+		})();
+	</script>
+	<noscript><p><img src="//piwik.allmende.io/piwik.php?idsite=<%= @site.piwik_id %>" style="border:0;" alt="" /></p></noscript>
+	<!-- End Piwik Code -->
 </body>
 </html>

@@ -1,5 +1,5 @@
 # Green Map #
 
-<figure><img src="/images/map-green.png"></figure>
+<figure>![Green Map](/images/map-green.png)</figure>
 
-[View map](http://transformap.co/greenmap.html#14/47.0700/15.4300)
+[View map](http://demo.transformap.co/greenmap.html#3/0/180)
