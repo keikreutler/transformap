@@ -18,7 +18,7 @@
 	<meta property="og:title" content="TransforMap" />
 	<meta property="og:type" content="website" />
 	<meta property="og:description" content="<%= @getPreparedDescription() %>" />
-	<meta property="og:url" content="http://transform.github.io" />
+	<meta property="og:url" content="http://transformap.co" />
 
 	<!-- Output DocPad produced meta elements -->
 	<%- @getBlock('meta').toHTML() %>
