@@ -1,4 +1,4 @@
-# Regional Maps #
+# Regional Map #
 
 <figure>![Needs-Based Map](/images/map-needs.png)</figure>
 
