@@ -16,24 +16,32 @@ tags: ['news','blog','overview']
 		</div>
 		<div class="row">
 			<div class="col-sm-3">
-				<div class="map-card">
-					<%- @partial('map-1') %>
-				</div>
+				<a href="http://demo.transformap.co/greenmap.html#16/48.2084/16.3733" target="_blank">
+					<div class="map-card">
+						<%- @partial('map-1') %>
+					</div>
+				</a>
 			</div>
 			<div class="col-sm-3">
-				<div class="map-card">
-					<%- @partial('map-2') %>
-				</div>
+				<a href="http://demo.transformap.co/identities.html#12/47.0782/15.4385">
+					<div class="map-card">
+						<%- @partial('map-2') %>
+					</div>
+				</a>
 			</div>
 			<div class="col-sm-3">
-				<div class="map-card">
-					<%- @partial('map-3') %>
-				</div>
+				<a href="http://demo.transformap.co/regional.html#13/47.0721/15.4506">
+					<div class="map-card">
+						<%- @partial('map-3') %>
+					</div>
+				</a>
 			</div>
 			<div class="col-sm-3">
-				<div class="map-card">
-					<%- @partial('map-4') %>
-				</div>
+				<a href="http://demo.transformap.co/organic.html#12/48.1373/11.5755">
+					<div class="map-card">
+						<%- @partial('map-4') %>
+					</div>
+				</a>
 			</div>
 		</div>
 		<p class="attribution">
