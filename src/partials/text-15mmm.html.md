@@ -37,10 +37,9 @@ If you don't find your questions answered in the [15MMM FAQ](http://discourse.tr
 |-------|--------------|----------|-----|
 |Austria, Germany (Saxony)|Josef Kreitmayer|@josefkreitmayer| - | - | - |
 |Canada, France, India|Adrien Labaye|@alabaye| - | - | - |
-|Finland, Canada, Greece|Silke Helfrich|@silke| - | - | - |
+|Finland, Canada, Greece, India|Silke Helfrich|@silke| - | - | - |
 |Italy|Giuliana|@giuliana| - | - | - |
 |Germany (Hessen), Hungary, Portugal, Slovenia |Gualter Baptista|@gandhiano|gandhiano|gandhiano@gnulogy.org|+49-151-41251126|
-|Greece|Dominik Reusser|@dreusser|-|-|-|
 |USA|Thomas Kalka|@toka|-|-|-|
 
 
