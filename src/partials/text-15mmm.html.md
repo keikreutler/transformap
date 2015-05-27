@@ -2,7 +2,7 @@
 
 ---------
 
-15MMM (#15mmm) is an abbreviation for "Mapping Month May 2015", and consists of a month-long series of mapping events, aimed at testing the current state of development of tools, as well as improving the community-sourced taxonomy of [TransforMap](http://discourse.transformap.co/t/transformap-a-short-introduction/289).
+15MMM (#15mmm) is an abbreviation for "Mapping Month May 2015", and consists of a month-long series of mapping events, aimed at testing the current state of development of tools, as well as improving the [community-sourced OpenStreetMap taxonomy](http://wiki.openstreetmap.org/wiki/Proposed_features/TransforMap) of [TransforMap](http://discourse.transformap.co/t/transformap-a-short-introduction/289).
 
 With 15MMM, we are inviting local initiatives and networks to come together in different places, and contribute points of interest that are already known or even presenting in different maps.
 
