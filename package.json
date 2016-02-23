@@ -14,10 +14,11 @@
     "Thomas Kalka <thomas.kalka@gmail.com> (https://github.com/thoka)",
     "Michael Maier <michael.maier@stud.unigraz.at> (https://github.com/species)",
     "Jon Richter <jon@allmende.io> (https://github.com/almereyda)"
+    "Gualter Barbas Baptista <gualter@ecobytes.net> (https://github.com/gandhiano)"
   ],
   "contributors": [
     "Kei Kreutler <kei@ourmachine.net> (https://github.com/keikreutler)"
-  ],
+
   "bugs": {
     "url": "https://github.com/TransforMap/transformap.github.io/issues"
   },
@@ -30,7 +31,7 @@
     "npm": "1.2"
   },
   "dependencies": {
-    "docpad": "~6.78.1",
+    "docpad": "~6.78.4",
     "docpad-plugin-cleanurls": "~2.7.0",
     "docpad-plugin-coffeescript": "~2.5.0",
     "docpad-plugin-downloader": "~2.1.4",
