@@ -13,12 +13,12 @@
   "maintainers": [
     "Thomas Kalka <thomas.kalka@gmail.com> (https://github.com/thoka)",
     "Michael Maier <michael.maier@stud.unigraz.at> (https://github.com/species)",
-    "Jon Richter <jon@allmende.io> (https://github.com/almereyda)"
+    "Jon Richter <jon@allmende.io> (https://github.com/almereyda)",
     "Gualter Barbas Baptista <gualter@ecobytes.net> (https://github.com/gandhiano)"
   ],
   "contributors": [
     "Kei Kreutler <kei@ourmachine.net> (https://github.com/keikreutler)"
-
+  ],
   "bugs": {
     "url": "https://github.com/TransforMap/transformap.github.io/issues"
   },
