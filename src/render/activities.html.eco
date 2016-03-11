@@ -6,9 +6,39 @@ pageOrder: 2
 ---
 
 <div id="page-activities">
-	<section>
+	<section id="activities">
 		<div class="container">
-			<%- @partial('text-15mmm') %>
+			<div class="row">
+				<div class="col-sm-12">
+					<div id="15mmm-activities">
+						<%- @partial('text-15mmm') %>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="toolkit" class="accent">
+		<div class="container">
+			<div class="row accent">
+				<div class="col-sm-12">
+					<div id="15mmm-toolkit">
+						<%- @partial('text-toolkit') %>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="feedback">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<div id="15mmm-feedback">
+						<%- @partial('text-feedback') %>
+					</div>
+				</div>
+			</div>
 		</div>
 	</section>
 

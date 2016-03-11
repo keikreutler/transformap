@@ -1,34 +1,37 @@
 {
-  "name": "twitter-bootstrap.docpad",
-  "version": "0.10.0",
-  "description": "Bootstrap skeleton for DocPad. Simple and flexible HTML, CSS, and Javascript for popular user interface components and interactions.",
-  "homepage": "https://github.com/bevry/twitter-bootstrap.docpad",
+  "name": "transformap",
+  "version": "0.1.0",
+  "description": "TransforMap is a techno-social architecture to visualise the commons transition.",
+  "homepage": "http://transformap.co/",
   "keywords": [
-    "docpad-skeleton",
-    "docpad",
+    "transition",
+    "transformation",
     "website",
-    "bootstrap"
+    "commons"
   ],
-  "author": "Bevry Pty Ltd <us@bevry.me> (http://bevry.me)",
+  "author": "Proximity Ltd <prox@imity.io> (http://imity.io/)",
   "maintainers": [
-    "Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
+    "Thomas Kalka <thomas.kalka@gmail.com> (https://github.com/thoka)",
+    "Michael Maier <michael.maier@stud.unigraz.at> (https://github.com/species)",
+    "Jon Richter <jon@allmende.io> (https://github.com/almereyda)",
+    "Gualter Barbas Baptista <gualter@ecobytes.net> (https://github.com/gandhiano)"
   ],
   "contributors": [
-    "Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
+    "Kei Kreutler <kei@ourmachine.net> (https://github.com/keikreutler)"
   ],
   "bugs": {
-    "url": "https://github.com/docpad/twitter-bootstrap.docpad/issues"
+    "url": "https://github.com/TransforMap/transformap.github.io/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/docpad/twitter-bootstrap.docpad.git"
+    "url": "https://github.com/TransforMap/transformap.github.io.git"
   },
   "engines": {
     "node": "0.10",
     "npm": "1.2"
   },
   "dependencies": {
-    "docpad": "~6.78.1",
+    "docpad": "~6.78.4",
     "docpad-plugin-cleanurls": "~2.7.0",
     "docpad-plugin-coffeescript": "~2.5.0",
     "docpad-plugin-downloader": "~2.1.4",

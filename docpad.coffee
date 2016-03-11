@@ -12,7 +12,7 @@ docpadConfig = {
 		# Specify some site properties
 		site:
 			# The production url of our website
-			url: "http://transformap.github.io"
+			url: "http://transformap.co"
 
 			# Here are some old site urls that you would like to redirect from
 			oldUrls: [
@@ -98,9 +98,9 @@ docpadConfig = {
 	# Plugins
 
 	plugins:
-	    ghpages:
-	        deployRemote: 'target'
-	        deployBranch: 'master'
+		ghpages:
+			deployRemote: 'target'
+			deployBranch: 'master'
 		downloader:
 			downloads: [
 				{
